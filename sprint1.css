@@ -15,10 +15,7 @@ body {
     background-color: #FFFFFF;
     min-width: 300px;
     min-height: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     font-family: Arial;
     font-size: 12pt;
     padding-top: 10px;
@@ -55,10 +52,7 @@ form .opt input {
     border-style: none;
     font-size: 12pt;
     color: #FFFFFF;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
+    padding: 16px;
     border-radius: 4px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -104,12 +98,12 @@ form .opt input {
     background-color: #FFDCF6;
     height: 50px;
 }
+/* Блок набора текста сообщения в чате */
 .msg div {
     display: block;
     float: left;
     height: 50px;
 }
-
 .msg .add {
     width: 50px;
     background-color: #FFA3A4;
@@ -177,4 +171,15 @@ form .opt input {
 }
 .cntr > .msg div:first-child {
     font-size: 200%; 
+}.form2 .clink  {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+}
+.clink a {
+    color: #2850AB;
+}
+.form2 .opt input {
+    text-align: center;
 }
